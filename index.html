@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!-- Styles -->
+   <link rel="stylesheet" href="styles/styles.css">
+   <!-- Font Awesome -->
+   <script src="https://kit.fontawesome.com/73650af842.js" crossorigin="anonymous"></script>
+   <title>Document</title>
+</head>
+<body>
+   <div></div>
+   <div class="wrapper">
+      <div class="textanime">
+         <h1>Hey, my name is Melissa.</h1>
+      </div>
+      <div id="opacity" class="move fade-in">
+         <p class="">and I make websites.</p>
+      </div>
+   </div>  
+   <div class="bottom">
+      <div class="socials">
+         <a href="https://www.linkedin.com/in/melissa-ahlstrom-843a3580/"><i class="fab fa-linkedin"></i></a>
+         <a href="https://github.com/mel-ahls"><i class="fab fa-github-square"></i></a>
+         <a href="https://twitter.com/mel_ahls"><i class="fab fa-twitter-square"></i></a>
+      </div>
+      <div class="contact">
+         <p>mobile:<br>647.335.3836</p>
+         <p>email:<br>melissa.ahlstrom@hotmail.com</p>
+      </div>
+   </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+  
+   $(document).ready(function (){
+
+      const opacity = document.getElementById('opacity');
+
+      setTimeout(function () { 
+         opacity.classList.add("opacity"); 
+      }, 4000);
+      
+   });
+
+</script>
+</html>
